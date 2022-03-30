@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    outline: none;
+    list-style-type: none;
+    line-height: 1.2;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #292b2c;
+    margin: 0;
+}
+
+p {
+    color: #666666;
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+a {
+    color: #00133E;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all .5s ease;
+}
+
+
+a:hover {
+    color: #00133E;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all .5s ease;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+ul,
+li,
+ol {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.section_one {
+    background-image: url(../images/benjamin-voros.jpg);
+    min-height: 100%;
+    padding: 200px 0;
+    background-position: bottom;
+}
+.section_text {
+    text-align: center;
+}
+.section_text .button {
+    padding: 15px 25px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.section_one, .section_three, .section_five {
+    position: relative;
+    background-repeat: no-repeat;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.section_two{
+    padding: 50px 80px;
+}
+.section_two h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: #111;
+    font-weight: 500;
+    font-size: 25px;
+}
+.section_text p {
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.section_three{
+    background-image: url(../images/samsommer.jpg);
+    min-height: 100%;
+    padding: 160px 0;
+}
+.section_three .section_text h4{
+    font-size: 28px;
+    color: #000;
+    text-transform: uppercase;
+}
+.section_four{
+    padding: 50px;
+    background-color: #4c4c4c;
+}
+.section_four .section_text{
+    text-align: left;
+}
+.section_four .section_text h4, .section_five .section_text h4{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.section_four .section_text p, .section_five .section_text p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.section_five{
+    background-image: url(../images/john-towner.jpg);
+    padding: 200px 50px;
+}
+.section_six{
+    padding: 50px 0;
+    background-color: #fff;
+}
+.section_six .section_text{
+    opacity: 0.6;
+}
