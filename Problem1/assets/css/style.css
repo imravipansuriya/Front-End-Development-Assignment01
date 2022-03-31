@@ -4,6 +4,12 @@
     list-style: none;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -86,9 +92,11 @@ dl {
     padding: 200px 0;
     background-position: bottom;
 }
+
 .section_text {
     text-align: center;
 }
+
 .section_text .button {
     padding: 15px 25px;
     border: none;
@@ -98,17 +106,21 @@ dl {
     text-transform: uppercase;
 }
 
-.section_one, .section_three, .section_five {
+.section_one,
+.section_three,
+.section_five {
     position: relative;
     background-repeat: no-repeat;
     opacity: 0.65;
     background-attachment: fixed;
     background-size: cover;
 }
-.section_two{
+
+.section_two {
     padding: 50px 80px;
 }
-.section_two h3{
+
+.section_two h3 {
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -116,47 +128,59 @@ dl {
     font-weight: 500;
     font-size: 25px;
 }
+
 .section_text p {
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 1px;
 }
-.section_three{
+
+.section_three {
     background-image: url(../images/samsommer.jpg);
     min-height: 100%;
     padding: 160px 0;
 }
-.section_three .section_text h4{
+
+.section_three .section_text h4 {
     font-size: 28px;
     color: #000;
     text-transform: uppercase;
 }
-.section_four{
+
+.section_four {
     padding: 50px;
     background-color: #4c4c4c;
 }
-.section_four .section_text{
+
+.section_four .section_text {
     text-align: left;
 }
-.section_four .section_text h4, .section_five .section_text h4{
+
+.section_four .section_text h4,
+.section_five .section_text h4 {
     color: #fff;
     margin-bottom: 10px;
     font-size: 25px;
 }
-.section_four .section_text p, .section_five .section_text p{
+
+.section_four .section_text p,
+.section_five .section_text p {
     color: #fff;
     font-size: 15px;
     line-height: 28px;
     letter-spacing: 1px;
 }
-.section_five{
+
+.section_five {
     background-image: url(../images/john-towner.jpg);
     padding: 200px 50px;
 }
-.section_six{
+
+.section_six {
     padding: 50px 0;
     background-color: #fff;
 }
-.section_six .section_text{
+
+.section_six .section_text {
     opacity: 0.6;
 }
