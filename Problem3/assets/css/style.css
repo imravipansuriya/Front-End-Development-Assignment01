@@ -1,0 +1,379 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    outline: none;
+    list-style-type: none;
+    line-height: 1.2;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    color: #000;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #292b2c;
+    margin: 0;
+}
+
+p {
+    color: #666666;
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.5;
+}
+
+a {
+    color: #00133E;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all .5s ease;
+}
+
+
+a:hover {
+    color: #00133E;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    transition: all .5s ease;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+figure {
+    margin: 0;
+}
+
+ul,
+li,
+ol {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+fieldset {
+    border: 0 none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+label {
+    color: #00133E;
+    margin: 0;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.btn:hover {
+    color: #f82249;
+}
+
+
+/* header */
+
+.navbar {
+    padding: 0;
+    padding: 15px 0;
+    background-color: rgb(6 12 34 / 77%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #f82249;
+}
+
+.navbar-light .navbar-brand {
+    color: #f82249;
+}
+.navbar-light .navbar-brand:hover{
+    color: #f82249;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #f82249;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+a.navbar-brand {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.register_button {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    margin-left: 10px;
+    border-radius: 3px;
+}
+
+.navbar-light .navbar-nav .nav-link.register_button:hover {
+    color: #fff !important;
+    background-color: #f82249;
+    border-color: #f82249;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/menu.svg)
+}
+
+.event_slider {
+    background-image: url(../images/headway.jpg);
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.corosal-detail {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 50%;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.register_btn {
+    background-color: #060c22fa;
+    color: #fff;
+}
+
+.corosal-detail h1 {
+    font-weight: 600;
+    color: #f82249;
+    margin-bottom: 10px;
+}
+
+.corosal-detail p {
+    color: #fff;
+    font-size: 18px;
+}
+
+li.nav-item a:hover {
+    color: #f82249 !important;
+}
+
+p.card-text {
+    min-height: 169px;
+}
+
+.card {
+    height: 100%;
+}
+
+.footer_wrp {
+    background-color: rgba(6, 12, 34, 0.98);
+    padding-top: 50px;
+}
+
+span.footer-title {
+    font-weight: 500;
+    color: #f82249;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+    border-bottom: 2px solid;
+    width: fit-content;
+    padding-bottom: 10px;
+}
+
+ul.nav .nav-item a {
+    color: #fff;
+    padding-left: 0;
+}
+
+li.nav-item a i {
+    margin-right: 11px;
+}
+
+.bottom_footer {
+    text-align: center;
+    padding: 25px 0;
+}
+
+.title-text {
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+.title-text h1 {
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+
+.bottom_footer a {
+    color: #fff;
+}
+.title-text p {
+    font-size: 16px;
+}
+
+/* speakers */
+
+.speakers_banner {
+    background-image: url("../images/edwin-andrade.jpg");
+    background-position: center;
+    padding: 100px 0;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    background-position: top;
+    padding-top: 176px;
+}
+
+.speakers_banner h2 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.speakers_banner p {
+    color: #fff;
+}
+
+.detail_text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.speaker_profile {
+    height: 200px;
+    width: 100%;
+}
+
+.speaker_profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.speaker_detail .name {
+    margin-bottom: 10px;
+}
+
+.scheduled_box ul li {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+    color: #f82249;
+}
+
+.nav-link {
+    color: #00133E;
+}
+
+.register_wrp {
+    margin: 50px 0;
+}
+
+.reg_detail h3 {
+    color: #f82249;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.reg_detail span {
+    color: #a9a9a9;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.reg_detail p {
+    font-size: 16px;
+}
+
+.reg_detail {
+    margin-bottom: 30px;
+}
+
+.reg_points h3 {
+    color: #f82249;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.reg_points ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666666;
+    list-style: auto;
+}
+.card-title{
+    color: #f82249;
+}
+
+.reg_points ul {
+    padding-left: 25px;
+}
+.purchase_button{
+    background-color: #f82249;
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.purchase_button:hover{
+    background-color: #060c22fa;
+}

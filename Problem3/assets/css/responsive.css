@@ -1,0 +1,27 @@
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+    a.nav-link.register_button {
+        width: fit-content;
+        margin-left: 0;
+        padding: 10px 10px;
+    }
+
+    .card {
+        height: inherit;
+        margin-bottom: 15px;
+        width: 100% !important;
+    }
+
+    .speaker_profile {
+        margin-bottom: 15px;
+        height: 300px;
+    }
+
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 575px) {}
+
+@media (max-width: 479px) {}
